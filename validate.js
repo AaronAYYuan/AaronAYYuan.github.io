@@ -2,7 +2,7 @@
       function validate() {
       
          if( document.regForm.msg.value == "" ) {
-            alert( "Please provide your user name!" );
+            alert( "Please enter your message!" );
             document.regForm.msg.focus() ;
             return false;
          }
